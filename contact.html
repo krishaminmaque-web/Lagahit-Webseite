@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact</title>
+  <style>
+    body {
+      background-color: #b3e5fc;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Navigation bar */
+    nav {
+      background-color: #0288d1;
+      display: flex;
+      justify-content: center;
+      padding: 12px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffeb3b;
+    }
+
+    /* Contact section */
+    .contact-container {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    h1 {
+      color: #01579b;
+      margin-bottom: 15px;
+    }
+
+    p.intro {
+      font-size: 18px;
+      color: #333;
+      margin-bottom: 40px;
+    }
+
+    /* Contact cards */
+    .contacts {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+
+    .contact-item {
+      background-color: #ffffffaa;
+      border-radius: 15px;
+      padding: 20px;
+      width: 250px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.15);
+      transition: transform 0.2s;
+      text-align: center;
+    }
+
+    .contact-item:hover {
+      transform: scale(1.05);
+    }
+
+    /* Circular image icons */
+    .icon {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 0 auto 15px auto;
+      box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    }
+
+    .icon img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .contact-item p {
+      font-size: 16px;
+      color: #333;
+      margin: 5px 0 0 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Projects</a>
+    <a href="videos.html">Tutorials</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- Contact Section -->
+  <div class="contact-container">
+    <h1>Contact Me</h1>
+    <p class="intro">You can reach out through any of the following platforms:</p>
+
+    <div class="contacts">
+      <!-- Email -->
+      <div class="contact-item">
+        <div class="icon">
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email Icon">
+        </div>
+        <p><strong>Email:</strong>krishaminmaque@gmail.com</p>
+      </div>
+
+      <!-- Phone -->
+      <div class="contact-item">
+        <div class="icon">
+          <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="Phone Icon">
+        </div>
+        <p><strong>Phone:</strong>09700427462</p>
+      </div>
+
+      <!-- Facebook -->
+      <div class="contact-item">
+        <div class="icon">
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" alt="Facebook Icon">
+        </div>
+        <p><strong>Facebook:</strong>Krishamin M. Lagahit</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
